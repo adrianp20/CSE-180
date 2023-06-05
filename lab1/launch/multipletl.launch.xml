@@ -1,0 +1,9 @@
+<launch>
+  <node pkg="lab1"
+	exec="intpublisher"
+	name="intpublisher"
+	launch-prefix="gnome-terminal --"  />
+  <node pkg="lab1"
+	exec="intsubscriber"
+	name="intsubscriber"/>
+</launch>
